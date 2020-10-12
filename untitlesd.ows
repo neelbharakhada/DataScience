@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="File" position="(128.0, 115.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owfile.OWFile" title="File" version="" />
+		<node id="1" name="Preprocess" position="(263.0, -46.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpreprocess.OWPreprocess" title="Discritize" version="" />
+		<node id="2" name="Preprocess" position="(266.0, 62.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpreprocess.OWPreprocess" title="Continuize" version="" />
+		<node id="3" name="Preprocess" position="(265.0, 264.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpreprocess.OWPreprocess" title="Randomize" version="" />
+		<node id="4" name="Preprocess" position="(267.0, 163.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpreprocess.OWPreprocess" title="Normalize" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="3" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="0" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="pickle" node_id="0">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYDAAAAHJlY2VudF9wYXRoc3ECXXEDKGNv
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3MKUmVjZW50UGF0aApxBCmBcQV9cQYoWAcAAABh
+YnNwYXRocQdYJQAAAEM6L1VzZXJzL25lZWxiL0Rvd25sb2Fkcy9kaWFiZXRlcy5jc3ZxCFgGAAAA
+cHJlZml4cQlOWAcAAAByZWxwYXRocQpOWAUAAAB0aXRsZXELWAAAAABxDFgFAAAAc2hlZXRxDWgM
+WAsAAABmaWxlX2Zvcm1hdHEOTnViaAQpgXEPfXEQKGgHWE4AAABDOi9Vc2Vycy9uZWVsYi9BcHBE
+YXRhL0xvY2FsL09yYW5nZS9saWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvaXJpcy50
+YWJxEWgJWA8AAABzYW1wbGUtZGF0YXNldHNxEmgKWAgAAABpcmlzLnRhYnETaAtoDGgNaAxoDk51
+YmgEKYFxFH1xFShoB1hRAAAAQzovVXNlcnMvbmVlbGIvQXBwRGF0YS9Mb2NhbC9PcmFuZ2UvbGli
+L3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL3RpdGFuaWMudGFicRZoCWgSaApYCwAAAHRp
+dGFuaWMudGFicRdoC2gMaA1oDGgOTnViaAQpgXEYfXEZKGgHWFEAAABDOi9Vc2Vycy9uZWVsYi9B
+cHBEYXRhL0xvY2FsL09yYW5nZS9saWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvaG91
+c2luZy50YWJxGmgJaBJoClgLAAAAaG91c2luZy50YWJxG2gLaAxoDWgMaA5OdWJoBCmBcRx9cR0o
+aAdYVwAAAEM6L1VzZXJzL25lZWxiL0FwcERhdGEvTG9jYWwvT3JhbmdlL2xpYi9zaXRlLXBhY2th
+Z2VzL09yYW5nZS9kYXRhc2V0cy9oZWFydF9kaXNlYXNlLnRhYnEeaAloEmgKWBEAAABoZWFydF9k
+aXNlYXNlLnRhYnEfaAtoDGgNaAxoDk51YmgEKYFxIH1xIShoB1hYAAAAQzovVXNlcnMvbmVlbGIv
+QXBwRGF0YS9Mb2NhbC9PcmFuZ2UvbGliL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2Jy
+b3duLXNlbGVjdGVkLnRhYnEiaAloEmgKWBIAAABicm93bi1zZWxlY3RlZC50YWJxI2gLaAxoDWgM
+aA5OdWJoBCmBcSR9cSUoaAdYTQAAAEM6L1VzZXJzL25lZWxiL0FwcERhdGEvTG9jYWwvT3Jhbmdl
+L2xpYi9zaXRlLXBhY2thZ2VzL09yYW5nZS9kYXRhc2V0cy96b28udGFicSZoCWgSaApYBwAAAHpv
+by50YWJxJ2gLaAxoDWgMaA5OdWJlWAsAAAByZWNlbnRfdXJsc3EoXXEpWBMAAABzYXZlZFdpZGdl
+dEdlb21ldHJ5cSpDQgHZ0MsAAwAAAAABfwAAAGwAAAPWAAACawAAAX8AAABsAAAD1gAAAmsAAAAA
+AAAAAAVWAAABfwAAAGwAAAPWAAACa3ErWAsAAABzaGVldF9uYW1lc3EsfXEtWAYAAABzb3VyY2Vx
+LksAWAMAAAB1cmxxL2gMWA0AAABkb21haW5fZWRpdG9ycTB9cTFYCwAAAF9fdmVyc2lvbl9fcTJL
+AVgQAAAAY29udGV4dF9zZXR0aW5nc3EzXXE0Y29yYW5nZXdpZGdldC5zZXR0aW5ncwpDb250ZXh0
+CnE1KYFxNn1xNyhYBgAAAHZhbHVlc3E4fXE5KFgJAAAAdmFyaWFibGVzcTpdcTtoMH1xPGg6XXE9
+KF1xPihYCwAAAFByZWduYW5jaWVzcT9jT3JhbmdlLmRhdGEudmFyaWFibGUKQ29udGludW91c1Zh
+cmlhYmxlCnFASwBoDIhlXXFBKFgHAAAAR2x1Y29zZXFCaEBLAGgMiGVdcUMoWA0AAABCbG9vZFBy
+ZXNzdXJlcURoQEsAaAyIZV1xRShYDQAAAFNraW5UaGlja25lc3NxRmhASwBoDIhlXXFHKFgHAAAA
+SW5zdWxpbnFIaEBLAGgMiGVdcUkoWAMAAABCTUlxSmhASwBoDIhlXXFLKFgYAAAARGlhYmV0ZXNQ
+ZWRpZ3JlZUZ1bmN0aW9ucUxoQEsAaAyIZV1xTShYAwAAAEFnZXFOaEBLAGgMiGVdcU8oWAcAAABP
+dXRjb21lcVBjT3JhbmdlLmRhdGEudmFyaWFibGUKRGlzY3JldGVWYXJpYWJsZQpxUUsBWAQAAAAw
+LCAxcVKIZWVzaDJLAXVYCgAAAGF0dHJpYnV0ZXNxUyhYCwAAAFByZWduYW5jaWVzcVRLAoZxVVgH
+AAAAR2x1Y29zZXFWSwKGcVdYDQAAAEJsb29kUHJlc3N1cmVxWEsChnFZWA0AAABTa2luVGhpY2tu
+ZXNzcVpLAoZxW1gHAAAASW5zdWxpbnFcSwKGcV1YAwAAAEJNSXFeSwKGcV9YGAAAAERpYWJldGVz
+UGVkaWdyZWVGdW5jdGlvbnFgSwKGcWFYAwAAAEFnZXFiSwKGcWNYBwAAAE91dGNvbWVxZF1xZShY
+AQAAADBxZlgBAAAAMXFnZYZxaHRxaVgFAAAAbWV0YXNxailYCgAAAGNsYXNzX3ZhcnNxaylYEgAA
+AG1vZGlmaWVkX3ZhcmlhYmxlc3FsXXFtdWJhdS4=
+</properties>
+		<properties format="literal" node_id="1">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x13\x00\x00\x00w\x00\x00\x04e\x00\x00\x02\x8a\x00\x00\x01\x14\x00\x00\x00\x96\x00\x00\x04d\x00\x00\x02\x89\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x01\x14\x00\x00\x00\x96\x00\x00\x04d\x00\x00\x02\x89', 'storedsettings': {'name': '', 'preprocessors': [('orange.preprocess.discretize', {})]}, '__version__': 2}</properties>
+		<properties format="literal" node_id="2">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x03\x00\x00\x00r\x00\x00\x04S\x00\x00\x02e\x00\x00\x01\x03\x00\x00\x00r\x00\x00\x04S\x00\x00\x02e\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x01\x03\x00\x00\x00r\x00\x00\x04S\x00\x00\x02e', 'storedsettings': {'name': '', 'preprocessors': [('orange.preprocess.continuize', {})]}, '__version__': 2}</properties>
+		<properties format="literal" node_id="3">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x02\x00\x00\x00S\x00\x00\x04T\x00\x00\x02f\x00\x00\x01\x03\x00\x00\x00r\x00\x00\x04S\x00\x00\x02e\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x01\x03\x00\x00\x00r\x00\x00\x04S\x00\x00\x02e', 'storedsettings': {'name': '', 'preprocessors': [('orange.preprocess.randomize', {})]}, '__version__': 2}</properties>
+		<properties format="literal" node_id="4">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x02\x00\x00\x00S\x00\x00\x04T\x00\x00\x02f\x00\x00\x01\x03\x00\x00\x00r\x00\x00\x04S\x00\x00\x02e\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x01\x03\x00\x00\x00r\x00\x00\x04S\x00\x00\x02e', 'storedsettings': {'name': '', 'preprocessors': [('orange.preprocess.scale', {})]}, '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
